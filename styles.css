@@ -1,0 +1,128 @@
+body {
+    font-family: Serif, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* คอนเทนเนอร์หลัก */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อ */
+h1, h2, h3 {
+    color: #000000;
+    text-align: center;
+}
+
+/* รายชื่อผู้ใช้ */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c2c1c1;
+    transition: 0.3s;
+}
+
+.user-item:hover {
+    background: #e0e0e0;
+}
+
+/* ลิงก์ของชื่อผู้ใช้ */
+.user-item a {
+    text-decoration: none;
+    color: #8e63aa;
+    font-weight: bold;
+}
+
+.user-item a:hover {
+    text-decoration: underline;
+}
+
+/* ปุ่ม */
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* ปุ่มกลับ */
+.back-button {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+/* รายละเอียดผู้ใช้ */
+.user-detail {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* รายการโพสต์ */
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.post-item:hover {
+    background: #f0f0f0;
+}
+
+/* ปุ่ม "ดูโพสต์ทั้งหมด" จัดให้อยู่ตรงกลาง */
+#view-posts {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* คอมเมนต์ */
+.comments {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eef;
+    border-radius: 5px;
+}
+
+.comments p {
+    margin: 5px 0;
+    font-size: 14px;
+}
